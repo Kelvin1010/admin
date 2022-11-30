@@ -1,0 +1,74 @@
+.sign_in,.sign_out{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 38, 53);
+    color: white;
+}
+.box_center{
+    height: 70vh;
+    max-width: 450px;
+    width: 450px;
+    min-width: 200px;
+    background-color: rgb(35, 48, 68);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    text-align: center;
+    padding: 40px;
+}
+.box_center_top{
+    margin: 0 auto;
+}
+.avt-logo{
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    width: 92px;
+    height: 92px;
+    text-align: center;
+    margin: 0px auto 20px;
+}
+.title-box{
+    margin: 0px 0px 0.25em;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.des-box{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+.box_center_content{
+    margin-top: 50px;
+}
+.box_center_content .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color: white !important;
+}
+.box_center_content .MuiInputBase-input{
+    color: white;
+}
+.box_center_content .input-box{
+    margin: 0 auto 30px;
+}
+.box_center_content .MuiFormLabel-colorPrimary,.MuiSvgIcon-root{
+    color: white !important;
+}
+.box_center_content .form-input{
+    margin: 0 auto 30px;
+}
+.box_center_content .button-submit-box{
+    width: 100%;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 122, 214);
+}
